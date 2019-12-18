@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="erueka-server" />
+        <module name="service-ribbon" />
         <module name="service-hi" />
         <module name="chapter2" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="erueka-server" options="-parameters" />
       <module name="service-hi" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
     </option>
   </component>
 </project>
